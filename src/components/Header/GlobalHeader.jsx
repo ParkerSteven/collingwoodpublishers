@@ -52,10 +52,10 @@ export default function GlobalHeader() {
                 </div>
               </div>
               <div className="flex flex-row gap-1 md:hidden">
-                <div className='block md:hidden border-2 border-black items-center p-1 sm:p-3  rounded-sm md:rounded-xl text-center bg-primary hover:bg-white hover:scale-95 transition-all duration-500'>
-                  <p className='text-black text-[12px] md:text-[12px] lg:text-[14px] xl:text-[17px] font-semibold'>Submit Your Manuscript</p>
+                <div className='block md:hidden border-2 border-black items-center p-1 sm:p-3  rounded-sm md:rounded-xl text-center bg-[#1f2a44] hover:bg-white hover:scale-95 transition-all duration-500'>
+                  <p className='text-white text-[12px] md:text-[12px] lg:text-[14px] xl:text-[17px] font-semibold'>Submit Your Manuscript</p>
                 </div>
-                <div className='lg:block border-2 border-black p-1 sm:p-1.28 rounded-sm md:rounded-xl group hover:bg-primary hover:scale-95 transition-all duration-500 '>
+                <div className='lg:block border-2 border-black p-1 sm:p-1.28 rounded-sm md:rounded-xl group hover:bg-[#1f2a44] hover:scale-95 transition-all duration-500 '>
                   <div className="flex flex-col items-center justify-center">
                     <Sheet>
                       <SheetTrigger> <DashboardIcon className="w-5 h-5 sm:w-7 sm:h-7 text-black sm:pt-1" /></SheetTrigger>

@@ -17,7 +17,7 @@ export default function NavigationSection() {
     return (
         <div className='flex flex-row justify-between md:gap-0 lg:gap-1'>
             <div>
-                <div className='hidden lg:block border-2 border-black p-3 rounded-xl group hover:bg-primary hover:scale-95 transition-all duration-500 '>
+                <div className='hidden lg:block border-2 border-black p-3 rounded-xl group hover:bg-[#1f2a44] hover:scale-95 transition-all duration-500 '>
                     <div>
                         <HomeIcon color="black" className='lg:w-7 lg:h-7 xl:w-7.5 xl:h-7.5' />
                     </div>
@@ -33,8 +33,8 @@ export default function NavigationSection() {
                 </div>
             </div>
             <div>
-                <div className='border-2 border-black p-3.75 rounded-xl text-center bg-primary hover:bg-white hover:scale-95 transition-all duration-500'>
-                    <p className='text-black md:text-[12px] lg:text-[14px] xl:text-[17px] font-semibold'>Submit Your Manuscript</p>
+                <div className='border-2 border-black p-3.75 rounded-xl text-center bg-[#1f2a44] hover:bg-white hover:scale-95 transition-all duration-500'>
+                    <p className='text-white md:text-[12px] lg:text-[14px] xl:text-[17px] font-semibold'>Submit Your Manuscript</p>
                 </div>
             </div>
         </div>
